@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Server", "WatchDog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Monitor", "WatchDog.Monitor\WatchDog.Monitor.csproj", "{F521D327-D69D-4CF1-B551-7FB8A7EA3BBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Models", "WatchDog.Models\WatchDog.Models.csproj", "{207C19E6-1DF2-4645-B462-8099E921093D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F521D327-D69D-4CF1-B551-7FB8A7EA3BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F521D327-D69D-4CF1-B551-7FB8A7EA3BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F521D327-D69D-4CF1-B551-7FB8A7EA3BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207C19E6-1DF2-4645-B462-8099E921093D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207C19E6-1DF2-4645-B462-8099E921093D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207C19E6-1DF2-4645-B462-8099E921093D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207C19E6-1DF2-4645-B462-8099E921093D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
