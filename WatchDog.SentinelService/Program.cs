@@ -1,5 +1,5 @@
 ﻿
-namespace WatchDog.SentinelService
+namespace WatchDog.SentinelService.Linux
 {
 	class Program
 	{

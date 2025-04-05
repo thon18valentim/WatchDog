@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.SentinelService", "WatchDog.SentinelService\WatchDog.SentinelService.csproj", "{6849D9C1-351B-499E-8887-7E2C1C2E0AFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.SentinelService.Linux", "WatchDog.SentinelService\WatchDog.SentinelService.Linux.csproj", "{6849D9C1-351B-499E-8887-7E2C1C2E0AFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchDog.Server", "WatchDog.Server\WatchDog.Server.csproj", "{AE365B38-1F17-435E-AFDD-B1E811C3EFBA}"
 EndProject

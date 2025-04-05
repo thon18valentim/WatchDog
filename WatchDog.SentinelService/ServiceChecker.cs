@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace WatchDog.SentinelService
+namespace WatchDog.SentinelService.Linux
 {
     public class ServiceChecker
     {
