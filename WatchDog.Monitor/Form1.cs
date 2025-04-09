@@ -12,8 +12,6 @@ namespace WatchDog.Monitor
 
 			InitializeComponent();
 			InitDataGridView();
-
-			servicesDataGridView.MouseClick += DataGridView1_MouseClick;
 		}
 
 		private void InitDataGridView()
@@ -166,24 +164,6 @@ namespace WatchDog.Monitor
 					_ => Color.Gray
 				};
 				e.CellStyle.ForeColor = Color.White;
-			}
-		}
-
-		private void DataGridView1_MouseClick(object sender, MouseEventArgs e)
-		{
-			// Verifica se o botão direito foi clicado
-			if (e.Button == MouseButtons.Right)
-			{
-				var hitTestInfo = servicesDataGridView.HitTest(e.X, e.Y);
-
-				if (hitTestInfo.RowIndex >= 0) 
-				{
-					servicesDataGridView.ClearSelection();
-					servicesDataGridView.Rows[hitTestInfo.RowIndex].Selected = true;
-
-					// Exibe o ContextMenuStrip no local do mouse
-					contextMenuStrip1.Show(Cursor.Position);
-				}
 			}
 		}
 	}

@@ -30,22 +30,20 @@ namespace WatchDog.Monitor
 		/// </summary>
 		private void InitializeComponent()
 		{
-			components = new System.ComponentModel.Container();
 			servicesDataGridView = new DataGridView();
-			contextMenuStrip1 = new ContextMenuStrip(components);
 			tabControl1 = new TabControl();
 			tabPage1 = new TabPage();
 			tabPage2 = new TabPage();
 			groupBox2 = new GroupBox();
+			checkBox3 = new CheckBox();
+			checkBox2 = new CheckBox();
+			checkBox1 = new CheckBox();
 			groupBox1 = new GroupBox();
 			button1 = new Button();
 			label2 = new Label();
 			textBox2 = new TextBox();
 			label1 = new Label();
 			textBox1 = new TextBox();
-			checkBox1 = new CheckBox();
-			checkBox2 = new CheckBox();
-			checkBox3 = new CheckBox();
 			((System.ComponentModel.ISupportInitialize)servicesDataGridView).BeginInit();
 			tabControl1.SuspendLayout();
 			tabPage1.SuspendLayout();
@@ -71,11 +69,6 @@ namespace WatchDog.Monitor
 			servicesDataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			servicesDataGridView.Size = new Size(439, 392);
 			servicesDataGridView.TabIndex = 0;
-			// 
-			// contextMenuStrip1
-			// 
-			contextMenuStrip1.Name = "contextMenuStrip1";
-			contextMenuStrip1.Size = new Size(61, 4);
 			// 
 			// tabControl1
 			// 
@@ -123,6 +116,36 @@ namespace WatchDog.Monitor
 			groupBox2.TabIndex = 1;
 			groupBox2.TabStop = false;
 			groupBox2.Text = "Warnings";
+			// 
+			// checkBox3
+			// 
+			checkBox3.AutoSize = true;
+			checkBox3.Location = new Point(136, 22);
+			checkBox3.Name = "checkBox3";
+			checkBox3.Size = new Size(83, 19);
+			checkBox3.TabIndex = 2;
+			checkBox3.Text = "Error email";
+			checkBox3.UseVisualStyleBackColor = true;
+			// 
+			// checkBox2
+			// 
+			checkBox2.AutoSize = true;
+			checkBox2.Location = new Point(6, 47);
+			checkBox2.Name = "checkBox2";
+			checkBox2.Size = new Size(103, 19);
+			checkBox2.TabIndex = 1;
+			checkBox2.Text = "Starting sound";
+			checkBox2.UseVisualStyleBackColor = true;
+			// 
+			// checkBox1
+			// 
+			checkBox1.AutoSize = true;
+			checkBox1.Location = new Point(6, 22);
+			checkBox1.Name = "checkBox1";
+			checkBox1.Size = new Size(87, 19);
+			checkBox1.TabIndex = 0;
+			checkBox1.Text = "Error sound";
+			checkBox1.UseVisualStyleBackColor = true;
 			// 
 			// groupBox1
 			// 
@@ -182,36 +205,6 @@ namespace WatchDog.Monitor
 			textBox1.Size = new Size(217, 23);
 			textBox1.TabIndex = 0;
 			// 
-			// checkBox1
-			// 
-			checkBox1.AutoSize = true;
-			checkBox1.Location = new Point(6, 22);
-			checkBox1.Name = "checkBox1";
-			checkBox1.Size = new Size(87, 19);
-			checkBox1.TabIndex = 0;
-			checkBox1.Text = "Error sound";
-			checkBox1.UseVisualStyleBackColor = true;
-			// 
-			// checkBox2
-			// 
-			checkBox2.AutoSize = true;
-			checkBox2.Location = new Point(6, 47);
-			checkBox2.Name = "checkBox2";
-			checkBox2.Size = new Size(103, 19);
-			checkBox2.TabIndex = 1;
-			checkBox2.Text = "Starting sound";
-			checkBox2.UseVisualStyleBackColor = true;
-			// 
-			// checkBox3
-			// 
-			checkBox3.AutoSize = true;
-			checkBox3.Location = new Point(136, 22);
-			checkBox3.Name = "checkBox3";
-			checkBox3.Size = new Size(83, 19);
-			checkBox3.TabIndex = 2;
-			checkBox3.Text = "Error email";
-			checkBox3.UseVisualStyleBackColor = true;
-			// 
 			// Form1
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
@@ -235,7 +228,6 @@ namespace WatchDog.Monitor
 		#endregion
 
 		private DataGridView servicesDataGridView;
-		private ContextMenuStrip contextMenuStrip1;
 		private TabControl tabControl1;
 		private TabPage tabPage1;
 		private TabPage tabPage2;
