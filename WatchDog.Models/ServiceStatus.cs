@@ -3,7 +3,8 @@ namespace WatchDog.Models
 {
     public enum ServiceStatus
     {
-        Active = 1,
-        Stopped = 2
+        RUNNING = 1,
+        STOPPED = 2,
+        PENDING = 3
     }
 }
